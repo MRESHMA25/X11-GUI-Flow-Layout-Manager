@@ -39,6 +39,7 @@ Key design aspects include:
 ## Build Instructions
 
 Run any of the following commands in your terminal:
+
 make  
 or  
 make all  
