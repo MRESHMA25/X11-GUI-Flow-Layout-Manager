@@ -10,6 +10,8 @@ Key design aspects include:
 - Console printing utilities for all core objects
 - Simple text wrapping and collision detection between GUI components
 
+---
+
 ## Project Structure
 
 | File                    | Purpose                                                             |
@@ -28,6 +30,8 @@ Key design aspects include:
 | main.cc                 | Launch and manage the application and initiate testing.            |
 | Makefile                | Build instructions for compiling the project.                      |
 
+---
+
 ## Features
 - **CuWindow**: Manages a graphical X11 window and multiple panels.
 - **FlowPanel**: Arranges TextArea components using a left-to-right, top-to-bottom flow layout.
@@ -35,6 +39,8 @@ Key design aspects include:
 - **PanelArray and TAArray**: Custom dynamic arrays for managing collections.
 - **RGB**: Provides basic color utilities with predefined static color methods (e.g., `WHITE()`, `RED()`, etc.)
 - **Memory Management**: Ownership and cleanup of dynamic memory are handled carefully within classes.
+
+---
 
 ## Build Instructions
 
@@ -55,6 +61,8 @@ This will generate an executable named `a2`.
 After compilation, run:
 
 ./a2
+
+---
 
 ## Notes
 
