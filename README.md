@@ -36,8 +36,6 @@ Key design aspects include:
 - **RGB**: Provides basic color utilities with predefined static color methods (e.g., `WHITE()`, `RED()`, etc.)
 - **Memory Management**: Ownership and cleanup of dynamic memory are handled carefully within classes.
 
-## Compilation Instructions
-
 ## Build Instructions
 
 Run any of the following commands in your terminal:
